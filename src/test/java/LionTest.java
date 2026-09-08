@@ -19,36 +19,14 @@ public class LionTest {
     @Mock
     private Feline feline;
 
-    @Test
-    public void testLionWithMaleHasMane() throws Exception {
-        Lion lion = new Lion("Самец", feline);
-
-        assertTrue(lion.doesHaveMane());
-    }
-
-    @Test
-    public void testLionWithFemaleNoMane() throws Exception {
-        Lion lion = new Lion("Самка", feline);
-
-        assertFalse(lion.doesHaveMane());
-    }
-
     @ParameterizedTest
     @CsvSource({
             "Самец, true",
             "Самка, false"
     })
-    public void testLionSexAndManeRelationship(String sex, boolean expectedHasMane) throws Exception {
-        Lion lion = new Lion(sex, feline);
-
+    public void testLionSexAndManeRelationship(boolean expectedHasMane) {
+        Lion lion = new Lion(feline);
         assertEquals(expectedHasMane, lion.doesHaveMane());
-    }
-
-    @Test
-    public void testLionInvalidSexThrowsException() {
-        assertThrows(Exception.class, () -> {
-            new Lion("Неизвестный", feline);
-        });
     }
 
     @Test

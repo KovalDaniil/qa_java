@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a3b710b-2421-442e-a2fa-b4d9ae6a5340" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2a3b710b-2421-442e-a2fa-b4d9ae6a5340" name="Changes" comment="add jacoco report">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Lion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,16 +59,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CatTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="qa_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.CatTest" />
+    <configuration name="CatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CatTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,10 +105,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in untitled" />
+        <item itemvalue="JUnit.FelineTest" />
+        <item itemvalue="JUnit.CatTest" />
         <item itemvalue="JUnit.com.example in untitled" />
         <item itemvalue="JUnit.LionTest" />
-        <item itemvalue="JUnit.FelineTest" />
-        <item itemvalue="JUnit.CatTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -125,8 +120,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1788766079270</updated>
-      <workItem from="1788766085669" duration="344000" />
+      <workItem from="1788766085669" duration="4526000" />
     </task>
+    <task id="LOCAL-00001" summary="add jacoco report">
+      <created>1788766441804</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1788766441804</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add jacoco report">
+      <created>1788766479462</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1788766479462</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +152,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add jacoco report" />
+    <option name="LAST_COMMIT_MESSAGE" value="add jacoco report" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/qa_java$CatTest.ic" NAME="CatTest Coverage Results" MODIFIED="1788725338616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
