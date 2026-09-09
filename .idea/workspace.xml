@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a3b710b-2421-442e-a2fa-b4d9ae6a5340" name="Changes" comment="add jacoco report">
+    <list default="true" id="2a3b710b-2421-442e-a2fa-b4d9ae6a5340" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Lion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LionTest.java" afterDir="false" />
@@ -16,6 +16,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,32 +39,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.23333333",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.23333333&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.All in untitled">
     <configuration name="All in untitled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CatTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,6 +74,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LionTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LionTest.testLionConstructorWithoutSexDoesNotSetMane" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LionTest" />
+      <option name="METHOD_NAME" value="testLionConstructorWithoutSexDoesNotSetMane" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,10 +107,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in untitled" />
-        <item itemvalue="JUnit.FelineTest" />
-        <item itemvalue="JUnit.CatTest" />
+        <item itemvalue="JUnit.LionTest.testLionConstructorWithoutSexDoesNotSetMane" />
         <item itemvalue="JUnit.com.example in untitled" />
         <item itemvalue="JUnit.LionTest" />
+        <item itemvalue="JUnit.FelineTest" />
       </list>
     </recent_temporary>
   </component>
@@ -120,23 +122,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1788766079270</updated>
-      <workItem from="1788766085669" duration="4526000" />
+      <workItem from="1788766085669" duration="344000" />
     </task>
-    <task id="LOCAL-00001" summary="add jacoco report">
-      <created>1788766441804</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1788766441804</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add jacoco report">
-      <created>1788766479462</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1788766479462</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,10 +139,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="add jacoco report" />
-    <option name="LAST_COMMIT_MESSAGE" value="add jacoco report" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/qa_java$CatTest.ic" NAME="CatTest Coverage Results" MODIFIED="1788725338616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
