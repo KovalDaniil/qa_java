@@ -19,20 +19,6 @@ public class LionTest {
     @Mock
     private Feline feline;
 
-//    @Test
-//    public void testLionWithMaleHasMane() throws Exception {
-//        Lion lion = new Lion("Самец", feline);
-//
-//        assertTrue(lion.doesHaveMane());
-//    }
-//
-//    @Test
-//    public void testLionWithFemaleNoMane() throws Exception {
-//        Lion lion = new Lion("Самка", feline);
-//
-//        assertFalse(lion.doesHaveMane());
-//    }
-
     @ParameterizedTest
     @CsvSource({
             "Самец, true",
